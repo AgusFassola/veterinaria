@@ -1,16 +1,29 @@
 *{
     margin: 0;
     padding: 0;
-    color: white;
+        color: white;
 
 }
 body{
-    background: linear-gradient(to right, black, purple);
+    background: linear-gradient(to right, black, purple );
+}
+.contenedor{
+    background: linear-gradient(to left, rgb(31, 28, 28), rgb(63, 9, 63));
+    border: solid grey;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: white;
 
 }
 
 form{
-    padding: 30px;
     color: white;
-    border: solid grey;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
 }
